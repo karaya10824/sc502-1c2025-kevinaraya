@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    
+}
+body{
+    background-color: rgb(240, 240, 240);    
+}
+
+nav{
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;     
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.navlink{
+    padding-right: 2rem;
+}
+
+.navlink a{
+    color: aqua;
+    text-decoration: none;
+}
+
+.navlink a:hover{
+    color: rgb(0, 176, 176);
+    text-decoration: none;
+}
+
+.doctorPerfil{
+    background-color: rgb(240, 240, 240);   
+    height: 20rem;     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-photo-dr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-photo-dr img{
+    width: 200px;
+    height: 200px;
+    padding-bottom: 10px;
+}
+
+.doctorPerfil .container{
+    display: grid;
+    width: 60rem;
+    height: 90%;
+    background-color: #fff;    
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.1);
+    grid-template-columns: 25rem 25rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.pacientesComentarios{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 15rem;    
+    background-color: rgb(240, 240, 240);    
+}
+
+.pacientesComentarios .container{
+    display: grid;
+    height: 10rem;
+    grid-template-columns: 25rem 25rem 25rem; 
+
+}
+
+.pacientesComentarios .card{
+    background-color: #fff;    
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.1); 
+    padding: 10px;
+    margin: 10px;
+}
+
