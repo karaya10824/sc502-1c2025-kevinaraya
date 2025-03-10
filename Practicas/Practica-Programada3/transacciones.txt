@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "descripcion": "hhh",
+        "monto": "21213"
+    },
+    {
+        "id": 2,
+        "descripcion": "dca",
+        "monto": "321"
+    },
+    {
+        "id": 3,
+        "descripcion": "ee",
+        "monto": "22"
+    }
+]
